@@ -1,5 +1,5 @@
 
-#attC-taxa.sh
+# attC-taxa.sh
 
 The script 'attC-taxa.sh' predicts the taxonomic origins of integron gene cassette recombiantion sites (*attC*s).
 
