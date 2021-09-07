@@ -1,4 +1,6 @@
+
 #attC-taxa.sh
+
 The script 'attC-taxa.sh' predicts the taxonomic origins of integron gene cassette recombiantion sites (*attC*s).
 
 The gene cassettes of sedentary chromosomal integrons (SCIs), generally possess highly similar *attC* sites, and this conservation spans the SCIs of different bacteria within the same taxon. In out recent [paper](https://doi.org/10.1038/s42003-021-02489-0), we modelled the conserved sequence and structure of *attC* sites from the chromosomal integrons of 11 bacterial taxa. These included six Gammaproteobacterial orders (Alteromonadales, Methylococcales, Oceanospirillales, Pseudomonadales, Vibrionales, Xanthomonadales) and an additional five phyla (Acidobacteria, Cyanobacteria, Deltaproteobacteria, Planctomycetes, Spirochaetes).
