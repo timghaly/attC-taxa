@@ -42,7 +42,8 @@ fi
 
 printf "\nattC-taxa.sh determines if any input attC has a sequence and folding structure that is conserved among one of several bacterial taxa\n\nPlease be aware that each taxon-specific model exhibits different sensitivities in detecting true positives and thus the relative proportion of different taxa cannot be compared within the same sample\n\nHowever, the relative proportion of the same taxon can be compared between different samples\n\nRunning cmsearch...\n\n"
 
-name=$(basename "$INPUT" | cut -d. -f1);
+# Extract sample name from contig file
+name=$(basename "$INPUT" | rev | cut -d'.' -f2- | rev);
 
 cmsearch --cpu $THREADS --notrunc --max -T 62 --tblout $OUTPUT/$name.Temp.1.tab $CMDIR/Alteromonadales.cm $INPUT > /dev/null;
 cmsearch --cpu $THREADS --notrunc --max -T 63 --tblout $OUTPUT/$name.Temp.2.tab $CMDIR/Methylococcales.cm $INPUT > /dev/null;
