@@ -12,7 +12,7 @@ The attC-taxa.sh pipeline uses covariance models (CMs) built from the *attC*s of
 ## attC-taxa.sh usage:
 
 
-**usage:** ./attC_taxa.sh
+**usage:** ./attC-taxa.sh
 
 
 **Mandatory arguments:**
@@ -34,4 +34,14 @@ The attC-taxa.sh pipeline uses covariance models (CMs) built from the *attC*s of
 [INFERNAL](http://eddylab.org/infernal/) version 1
 
 
+## Citations:
 
+If you use attC-taxa.sh, please cite the following, which describe the *attC* models and the attC-taxa.sh pipeline, respectively:
+
+Ghaly, T.M., Tetu, S.G. and Gillings, M.R. 2021. Predicting the taxonomic and environmental sources of integron gene cassettes using structural and sequence homology of attC sites. *Communications Biology*, 4(1):946
+
+Ghaly, T.M., Penesyan, A., Pritchard, A., Qi, Q., Rajabal, V., Tetu, S.G. and Gillings, M.R. 2021. Methods for the targeted sequencing and analysis of integrons and their gene cassettes from complex microbial communities. *bioRxiv*
+
+Please also cite INFERNAL:
+
+Nawrocki, E.P. and Eddy, S.R. 2013. Infernal 1.1: 100-fold faster RNA homology searches. *Bioinformatics*, 29(22):2933-2935.
