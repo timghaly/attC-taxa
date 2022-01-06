@@ -21,7 +21,7 @@ The attC-taxa.sh pipeline uses covariance models (CMs) built from the *attC*s of
 
 -d : path to directory containing all 11 CMs ('attC-taxon-CMs')
 
--i : input fasta of attC sequences (each sequence must be represent a single *attC* sequence)
+-i : input fasta of attC sequences (each sequence must represent a single *attC* sequence)
 
 
 **Optional arguments:**
