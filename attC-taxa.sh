@@ -1,6 +1,6 @@
 #!/bin/bash
 
-usage() { printf "\nusage: ./attC-taxa.sh -d -i [optional arguments]\n\nMandatory arguments:\n-d : path to directory containing all 11 CMs \n-i : input fasta of attC sequences\n\nOptional arguments:\n-t : number of CPUs | default: 1 \n-o : output directory | default: current directory\n\nDependencies:\nINFERNAL version 1\n\n"; exit 0;}
+usage() { printf "\nusage: ./attC-taxa.sh -d -i [optional arguments]\n\nMandatory arguments:\n-d : path to directory containing all 11 CMs \n-i : input fasta of attC sequence (each sequence must represent a single attC sequence)s\n\nOptional arguments:\n-t : number of CPUs | default: 1 \n-o : output directory | default: current directory\n\nDependencies:\nINFERNAL version 1\n\n"; exit 0;}
 [ $# -eq 0 ] && usage
 
 while getopts d:i:t:o: flag
