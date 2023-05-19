@@ -42,7 +42,7 @@ If you use attC-taxa.sh, please cite the following, which describe the *attC* mo
 
 Ghaly, T.M., Tetu, S.G. and Gillings, M.R. 2021. Predicting the taxonomic and environmental sources of integron gene cassettes using structural and sequence homology of attC sites. *Communications Biology*, 4(1):946
 
-Ghaly, T.M., Penesyan, A., Pritchard, A., Qi, Q., Rajabal, V., Tetu, S.G. and Gillings, M.R. 2021. Methods for the targeted sequencing and analysis of integrons and their gene cassettes from complex microbial communities. *bioRxiv*
+Ghaly, T.M., Penesyan, A., Pritchard, A., Qi, Q., Rajabal, V., Tetu, S.G. and Gillings, M.R. 2021. Methods for the targeted sequencing and analysis of integrons and their gene cassettes from complex microbial communities. *Microbial Genomics*, **8**(3): 000788. doi: [10.1099/mgen.0.000788](https://doi-org.simsrad.net.ocs.mq.edu.au/10.1099/mgen.0.000788).
 
 Please also cite INFERNAL:
 
